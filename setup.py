@@ -69,7 +69,7 @@ setup(
 
     # 如果上传时出现ERROR：The user '' isn't allowed to upload to project ''，换个名字，长一点无所谓，不能跟别人重复
     name="pythonSmallToolsByHanXu",
-    version="1.0.6",
+    version="1.0.7",
     author="Han Xu",
     author_email="736946693@qq.com",
     description="This is a repo of some smallTools created by python.",

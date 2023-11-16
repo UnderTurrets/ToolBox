@@ -1,9 +1,11 @@
 ﻿<!-- TOC -->
-* [总览](#)
+* [Content](#content)
 * [`rename_files`](#rename_files)
   * [by order](#by-order)
   * [by `filename extension`](#by-filename-extension)
+  * [result:](#result-)
 * [`normalize_md`](#normalize_md)
+  * [result:](#result-)
 <!-- TOC -->
 # Content
 This is a repo of some smallTools created by python.

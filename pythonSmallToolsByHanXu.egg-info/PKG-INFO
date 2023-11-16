@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: pythonSmallToolsByHanXu
-Version: 1.0.0
+Version: 1.0.1
 Summary: This is a repo of some smallTools created by python.
-Home-page: https://gitee.com/UnderTurrets/small-tools
+Home-page: https://gitee.com/UnderTurrets/pythonSmallTools
 Author: Han Xu
 Author-email: 736946693@qq.com
 License: UNKNOWN
@@ -26,11 +26,13 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 
 ﻿<!-- TOC -->
-* [总览](#)
+* [Content](#content)
 * [`rename_files`](#rename_files)
   * [by order](#by-order)
   * [by `filename extension`](#by-filename-extension)
+  * [result:](#result-)
 * [`normalize_md`](#normalize_md)
+  * [result:](#result-)
 <!-- TOC -->
 # Content
 This is a repo of some smallTools created by python.

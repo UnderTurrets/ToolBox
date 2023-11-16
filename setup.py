@@ -1,9 +1,14 @@
 from setuptools import setup, find_packages
 from os import path
+import glob
 
 this_directory = path.abspath(path.dirname(__file__))
 with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     my_long_description = f.read()
+
+# 使用 glob 模块列出所有图片文件
+image_files = glob.glob('res/imgRes/*.jpg')
+
 setup(
     # 关于classifiers的描述详见如下
     # https://pypi.org/search/?q=&o=&c=Topic+%3A%3A+Software+Development+%3A%3A+Build+Tools
@@ -37,7 +42,6 @@ setup(
         "Programming Language :: Python :: 3.3",
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
-        "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
@@ -45,7 +49,7 @@ setup(
 
         # 运行的操作系统
         # "Operating System :: POSIX :: Linux",
-        "Operating System :: Microsoft :: Windows :: Windows 11",
+        "Operating System :: Microsoft :: Windows",
 
         # 运行的环境
         # "Environment :: GPU :: NVIDIA CUDA :: 12",
@@ -62,13 +66,13 @@ setup(
 
         # 自然语言
         "Natural Language :: English",
-        # "Natural Language :: Chinese (Simplified)"
+        "Natural Language :: Chinese (Simplified)",
 
     ],
 
     # 如果上传时出现ERROR：The user '' isn't allowed to upload to project ''，换个名字，长一点无所谓，不能跟别人重复
     name="pythonSmallToolsByHanXu",
-    version="1.0.2",
+    version="1.0.4",
     author="Han Xu",
     author_email="736946693@qq.com",
     description="This is a repo of some smallTools created by python.",
@@ -84,15 +88,15 @@ setup(
 
     # 安装过程中，需要安装的静态文件，如配置文件、service文件、图片等
     # data_files=[
-    #     ("res/imgRes/", ["*.jpg"]),
-    #     # ("/usr/lib/systemd/system/", ["bin/*.service"]),
+    #     ("res/imgRes", image_files),
+    #     # ("/usr/lib/systemd/system", ["bin/*.service"]),
     #            ],
 
     # 希望被打包的文件
-    # package_data={
-    #     "":["*.txt"],
-    #     "bandwidth_reporter":["*.txt"],
-    #            },
+    package_data={
+        "pythonSmallToolsByHanXu":image_files,
+        # "bandwidth_reporter":["*.txt"],
+               },
 
     # 不打包某些文件
     # exclude_package_data={
@@ -109,12 +113,6 @@ setup(
     # 仅在测试时需要使用的依赖，在正常发布的代码中是没有用的。
     # 在执行python setup.py test时，可以自动安装这三个库，确保测试的正常运行。
     # tests_require=[
-    #     "",
-    # ],
-
-    # 用于安装setup_requires或tests_require里的软件包
-    # 这些信息会写入egg的 metadata 信息中
-    # dependency_links=[
     #     "",
     # ],
 

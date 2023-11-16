@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pythonSmallToolsByHanXu
-Version: 1.0.2
+Version: 1.0.4
 Summary: This is a repo of some smallTools created by python.
 Home-page: https://gitee.com/UnderTurrets/pythonSmallTools
 Author: Han Xu
@@ -14,14 +14,14 @@ Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 3.3
 Classifier: Programming Language :: Python :: 3.4
 Classifier: Programming Language :: Python :: 3.5
-Classifier: Programming Language :: Python :: 3.5
 Classifier: Programming Language :: Python :: 3.6
 Classifier: Programming Language :: Python :: 3.7
 Classifier: Programming Language :: Python :: 3.8
 Classifier: Programming Language :: Python :: 3.9
-Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Operating System :: Microsoft :: Windows
 Classifier: Intended Audience :: End Users/Desktop
 Classifier: Natural Language :: English
+Classifier: Natural Language :: Chinese (Simplified)
 Description-Content-Type: text/markdown
 License-File: LICENSE
 

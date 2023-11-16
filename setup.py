@@ -7,7 +7,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     my_long_description = f.read()
 
 # 使用 glob 模块列出所有图片文件
-image_files = glob.glob('res/imgRes/*.jpg')
+# image_files = glob.glob('res/imgRes/*.jpg')
 
 setup(
     # 关于classifiers的描述详见如下
@@ -72,7 +72,7 @@ setup(
 
     # 如果上传时出现ERROR：The user '' isn't allowed to upload to project ''，换个名字，长一点无所谓，不能跟别人重复
     name="pythonSmallToolsByHanXu",
-    version="1.0.4",
+    version="1.0.5",
     author="Han Xu",
     author_email="736946693@qq.com",
     description="This is a repo of some smallTools created by python.",
@@ -93,10 +93,10 @@ setup(
     #            ],
 
     # 希望被打包的文件
-    package_data={
-        "pythonSmallToolsByHanXu":image_files,
+    # package_data={
+    #     "pythonSmallToolsByHanXu":image_files,
         # "bandwidth_reporter":["*.txt"],
-               },
+        #        },
 
     # 不打包某些文件
     # exclude_package_data={

@@ -39,7 +39,7 @@ if __name__ == '__main__':
 
 ## result:
 
-![](res\imgRes\屏幕截图 2023-11-16 120758.png)
+![](res/imgRes/屏幕截图 2023-11-16 120758.png)
 
 # `normalize_md`
 - Usually, when we write the md file, the images in the md file are bundled with the internet. If you want to view the images offline, you should download the images at advanced and transform the md file at the proper place, and the process takes much time! This tool allow you to download the online images in the md file automatically so that you could view the md file without the internet!
@@ -54,10 +54,10 @@ if __name__ == '__main__':
 ## result:
 - before:
 
-![](res\imgRes\屏幕截图 2023-11-16 121919.png)
-![](res\imgRes\屏幕截图 2023-11-16 122550.png)
+![](res/imgRes/屏幕截图 2023-11-16 121919.png)
+![](res/imgRes/屏幕截图 2023-11-16 122550.png)
 
 - after:
 
-![](res\imgRes\屏幕截图 2023-11-16 121942.png)
-![](res\imgRes\屏幕截图 2023-11-16 121930.png)
+![](res/imgRes/屏幕截图 2023-11-16 121942.png)
+![](res/imgRes/屏幕截图 2023-11-16 121930.png)

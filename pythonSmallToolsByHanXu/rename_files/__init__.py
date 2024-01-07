@@ -17,30 +17,28 @@ class renamer:
 
         # 获取目录下的所有文件
         files = os.listdir(self.cur_dir)
-        files = sorted(files,key=order_key)
+        # 跳过一些系统文件
+        while (files.count(r"desktop.ini") != 0):
+            files.remove(r"desktop.ini")
+        # 排序
+        files = sorted(files, key=order_key)
 
         index = 1
-
         # 遍历所有文件并重命名
         for file in files:
 
-            # 跳过一些系统文件
-            if file == "desktop.ini":
-                continue
-
-            elif os.path.isdir(file) == False and file.rfind(".") != -1:
+            if os.path.isdir(file) == False and file.rfind(".") != -1:
 
                 # 获取文件后缀名
                 file_type = file[file.rfind(".") + 1:]
 
                 if target_type == "*" or target_type == file_type:
-                    target_name=new_name + f"({index})." + file_type
+                    target_name = new_name + f"{index}." + file_type
                     os.rename(file, target_name)
                     print(f"{self.cur_dir}"
-                          f"{file}-------->{target_name}",sep="\n")
+                          f"{file}-------->{target_name}", sep="\n")
 
                 index = index + 1
-
 
         return
 

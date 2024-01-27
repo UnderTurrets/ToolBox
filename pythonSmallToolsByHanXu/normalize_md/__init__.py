@@ -36,11 +36,13 @@ class normalizer:
             img_name = os.path.basename(urlparse(img_url).path)
             img_path = os.path.join(img_dir, img_name)
 
+            img_dir_safe = img_dir.replace(' ', '%20')
+
             response = requests.get(img_url)
             with open(img_path, 'wb') as img_file:
                 img_file.write(response.content)
 
-            md_content = md_content.replace(img_url, f'{img_dir}/{img_name}')
+            md_content = md_content.replace(img_url, f'{img_dir_safe}/{img_name}')
 
         with open(md_file_name, 'w', encoding='utf-8') as f:
             f.write(md_content)

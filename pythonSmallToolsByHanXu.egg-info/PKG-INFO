@@ -1,12 +1,10 @@
 Metadata-Version: 2.1
 Name: pythonSmallToolsByHanXu
-Version: 1.1.0
+Version: 1.1.1
 Summary: This is a repo of some smallTools created by python.
 Home-page: https://gitee.com/UnderTurrets/pythonSmallTools
 Author: Han Xu
 Author-email: 736946693@qq.com
-License: UNKNOWN
-Platform: UNKNOWN
 Classifier: Topic :: Software Development :: Libraries :: Python Modules
 Classifier: Development Status :: 4 - Beta
 Classifier: License :: OSI Approved :: MIT License
@@ -24,6 +22,7 @@ Classifier: Natural Language :: English
 Classifier: Natural Language :: Chinese (Simplified)
 Description-Content-Type: text/markdown
 License-File: LICENSE
+Requires-Dist: requests
 
 ﻿<!-- TOC -->
 * [Content](#content)
@@ -91,5 +90,3 @@ if __name__ == '__main__':
 ![在这里插入图片描述](res/imgRes/2023-11-16-121942.png)
 
 ![在这里插入图片描述](res/imgRes/2023-11-16-121930.png)
-
-

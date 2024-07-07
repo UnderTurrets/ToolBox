@@ -1,3 +1,32 @@
+Metadata-Version: 2.1
+Name: ToolBoxByHanXu
+Version: 1.0.0
+Summary: This is a repo of some small tools created by python.
+Home-page: https://gitee.com/UnderTurrets/pythonSmallTools
+Author: Han Xu
+Author-email: 736946693@qq.com
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Chinese (Simplified)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
 ﻿
 # Brief
 This is a repo of some smallTools created by python.

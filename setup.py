@@ -36,6 +36,8 @@ setup(
         # Programming Language :: Python :: 3.8
         # Programming Language :: Python :: 3.9
         "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.1",
+        "Programming Language :: Python :: 3.2",
         "Programming Language :: Python :: 3.3",
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
@@ -45,7 +47,7 @@ setup(
         "Programming Language :: Python :: 3.9",
 
         # 运行的操作系统
-        # "Operating System :: POSIX :: Linux",
+        "Operating System :: POSIX :: Linux",
         "Operating System :: Microsoft :: Windows",
 
         # 运行的环境
@@ -68,11 +70,11 @@ setup(
     ],
 
     # 如果上传时出现ERROR：The user '' isn't allowed to upload to project ''，换个名字，长一点无所谓，不能跟别人重复
-    name="pythonSmallToolsByHanXu",
-    version="1.1.1",
+    name="ToolBoxByHanXu",
+    version="1.0.0",
     author="Han Xu",
     author_email="736946693@qq.com",
-    description="This is a repo of some smallTools created by python.",
+    description="This is a repo of some small tools created by python.",
     long_description=my_long_description,
 
     # 存放源码的地址，填入gitee的源码网址即可
@@ -85,13 +87,13 @@ setup(
 
     # 安装过程中，需要安装的静态文件，如配置文件、service文件、图片等
     # data_files=[
-    #     ("res/imgRes", image_files),
+    #     ("assets/imgRes", image_files),
     #     # ("/usr/lib/systemd/system", ["bin/*.service"]),
     #            ],
 
     # 希望被打包的文件
     # package_data={
-    #     "pythonSmallToolsByHanXu":image_files,
+    #     "ToolBoxByHanXu":image_files,
         # "bandwidth_reporter":["*.txt"],
         #        },
 

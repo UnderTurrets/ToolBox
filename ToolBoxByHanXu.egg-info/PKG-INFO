@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: ToolBoxByHanXu
-Version: 1.0.0
+Version: 1.0.1
 Summary: This is a repo of some small tools created by python.
 Home-page: https://gitee.com/UnderTurrets/pythonSmallTools
 Author: Han Xu
@@ -25,13 +25,13 @@ Classifier: Natural Language :: English
 Classifier: Natural Language :: Chinese (Simplified)
 Description-Content-Type: text/markdown
 License-File: LICENSE
-Requires-Dist: requests
+Requires-Dist: requests~=2.28.2
+Requires-Dist: tqdm~=4.65.2
+Requires-Dist: setuptools~=70.1.1
 
 ﻿
 # Brief
 This is a repo of some smallTools created by python.
-
-
 
 # module 1:`image_spider`
 

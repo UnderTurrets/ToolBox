@@ -71,7 +71,7 @@ setup(
 
     # 如果上传时出现ERROR：The user '' isn't allowed to upload to project ''，换个名字，长一点无所谓，不能跟别人重复
     name="ToolBoxByHanXu",
-    version="1.0.0",
+    version="1.0.1",
     author="Han Xu",
     author_email="736946693@qq.com",
     description="This is a repo of some small tools created by python.",
@@ -103,7 +103,9 @@ setup(
     #            },
 
     # 表明当前模块依赖哪些包，若环境中没有，则会从pypi中下载安装
-    install_requires=["requests",],
+    install_requires=["requests~=2.28.2",
+                      "tqdm~=4.65.2",
+                      "setuptools~=70.1.1"],
 
     # setup.py 本身要依赖的包，这通常是为一些setuptools的插件准备的配置
     # 这里列出的包，不会自动安装。

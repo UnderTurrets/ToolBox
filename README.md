@@ -2,8 +2,6 @@
 # Brief
 This is a repo of some smallTools created by python.
 
-
-
 # module 1:`image_spider`
 
 - This tool allow you to crawl images from `3` website, which are Pixiv,Bing and Baidu.

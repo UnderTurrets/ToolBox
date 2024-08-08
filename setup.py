@@ -71,7 +71,7 @@ setup(
 
     # 如果上传时出现ERROR：The user '' isn't allowed to upload to project ''，换个名字，长一点无所谓，不能跟别人重复
     name="ToolBoxByHanXu",
-    version="1.0.1",
+    version="1.0.2",
     author="Han Xu",
     author_email="736946693@qq.com",
     description="This is a repo of some small tools created by python.",

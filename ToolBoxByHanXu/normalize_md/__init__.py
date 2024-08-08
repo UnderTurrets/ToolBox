@@ -20,7 +20,7 @@ class normalizer:
 
         # 图片素材文件夹
         filename_noExt=os.path.splitext(md_file_name)[0]
-        img_dir = 'imgRes'+filename_noExt if len('imgRes'+filename_noExt)<=200 else 'imgRes'+filename_noExt[:200]
+        img_dir = 'assets'+filename_noExt if len('assets'+filename_noExt)<=200 else 'assets'+filename_noExt[:200]
 
         # 创建目录
         if os.path.exists(img_dir)==False:

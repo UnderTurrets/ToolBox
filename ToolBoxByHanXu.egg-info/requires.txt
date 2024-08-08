@@ -1,3 +1,0 @@
-requests~=2.28.2
-tqdm~=4.65.2
-setuptools~=70.1.1
